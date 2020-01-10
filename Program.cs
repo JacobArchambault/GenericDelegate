@@ -6,7 +6,7 @@ namespace GenericDelegate
     public delegate void MyGenericDelegate<T>(T arg);
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             Console.WriteLine("***** Generic Delegates *****\n");
 
